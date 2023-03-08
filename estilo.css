@@ -1,0 +1,64 @@
+/* Generales */
+
+* {
+  font-family: 'Fjalla One', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Portadas */
+
+.texto-portada {
+  text-align: center;
+  font-size: 3rem;
+  padding: 10px;
+  color: #000000;
+  background-color: #D9D9D9;
+  border-radius: 5px;
+}
+
+/* Productos */
+
+.producto {
+  background-color: #D9D9D9;
+  width:400px;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.nombre-articulo-en-venta {
+  color: black;
+  padding: 15px;
+  text-align: center;
+  font-size: 2rem;
+  overflow: hidden;
+  flex-wrap: nowrap;
+}
+
+.div-productos {
+  overflow: hidden;
+  padding: 30px;
+  margin: 30px;
+  justify-content: space-evenly;
+  gap: 40px;
+  align-items: center;
+}
+
+
+
+.img-producto {
+  border-radius: 10px;
+}
